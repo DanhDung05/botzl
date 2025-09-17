@@ -234,10 +234,10 @@ async function blockUser(api, message, threadId, senderId, senderName) {
 
 async function sendWarningMessage(api, message, senderId, senderName, count) {
   try {
-    let caption = `⚠️ Cảnh cáo ${senderName}!\nỞ đây N Q D cấm gửi link`;
+    let caption = `⚠️ Cảnh cáo ${senderName}!\nỞ đây cấm gửi link`;
     switch (count) {
       case 2:
-        caption = `⚠️ Cảnh cáo ${senderName}!\nNgừng send link, trước khi, mọi chuyện dần tồi tệ hơn!`;
+        caption = `⚠️ Cảnh cáo ${senderName}!\nGửi link ít thôi!`;
         break;
     }
     await api.sendMessage(

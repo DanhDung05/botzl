@@ -326,7 +326,7 @@ async function handleWarning(
   if (warning.count < 3) {
     let caption = `⚠️ Cảnh cáo ${senderName}!\nChậm cái tay lại bạn êy, tay hơi nhanh rồi đấy!`;
     if (warning.count === 2) {
-      caption = `⚠️ Cảnh cáo ${senderName}!\nNhắn chậm lại, tao xút mày ra khỏi box bây giờ!`;
+      caption = `⚠️ Cảnh cáo ${senderName}!\nNhắn chậm lại thôi bro`;
     }
     await api.sendMessage(
       {

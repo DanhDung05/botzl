@@ -1,16 +1,16 @@
 {
   "name": "zlbotdqt",
-  "version": "1.5.5",
-  "share": "share by N Q D",
+  "version": "1.0.0",
+  "share": "share by A A A",
   "main": "src/api-zalo/index.js",
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
     "bot": "node bot.js"
   },
-  "author": "N Q D",
+  "author": "AAA",
   "license": "ISC",
-  "description": "A Project ChatBot Zalo Code by DQT",
+  "description": "AAA",
   "dependencies": {
     "@ffprobe-installer/ffprobe": "^2.1.2",
     "@google/generative-ai": "^0.21.0",

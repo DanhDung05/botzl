@@ -263,7 +263,7 @@ export async function antiNude(api, message, isAdminBox, groupSettings, botIsAdm
             await api.sendMessage(
               {
                 msg:
-                  `⚠️ ${senderName}!\nUầy bạn ơi, cái này múp quá, tôi phải giấu thôi... (Độ nhạy cảm: ${Math.max(nsfw_prob, 50)}%).`,
+                  `⚠️ ${senderName}!\Ui bạn ơi, cái này múp quá, tôi phải giấu thôi... (Độ nhạy cảm: ${Math.max(nsfw_prob, 50)}%).`,
                 mentions: [MessageMention(senderId, senderName.length, "⚠️ ".length)],
                 quote: message,
                 ttl: 30000,
@@ -327,7 +327,7 @@ async function handleNudeContent(api, message, threadId, senderId, senderName) {
     try {
       await api.sendMessage(
         {
-          msg: `Bạn đã bị chặn do gửi nội dung nhạy cảm! 🚫` + `\nVui lòng Không lặp lại hành vi này ở nơi khác.`,
+          msg: `Bạn đã bị chặn do gửi nội dung nhạy cảm! 🚫` + `\nVui lòng không lặp lại hành vi này ở nơi khác.`,
           attachments: imagePath ? [imagePath] : [],
         },
         senderId,

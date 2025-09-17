@@ -68,7 +68,7 @@ export async function handleWhiteList(api, message, groupSettings, groupAdmins) 
         await sendMessageWarning(
           api,
           message,
-          `Số thứ tự Không hợp lệ. Vui lòng chọn số từ 1 đến ${whiteListArray.length}.`
+          `Số thứ tự không hợp lệ. Vui lòng chọn số từ 1 đến ${whiteListArray.length}.`
         );
         return false;
       }

@@ -80,7 +80,7 @@ export async function handleMute(api, message, groupSettings, isAdminBox, botIsA
 export async function handleMuteList(api, message, groupSettings) {
   const threadId = message.threadId;
   if (Object.keys(groupSettings[threadId].muteList).length === 0) {
-    await sendMessageWarning(api, message, "Hiện Không có người dùng nào bị cấm chat.");
+    await sendMessageWarning(api, message, "Hiện không có người dùng nào bị cấm chat.");
     return;
   }
 
