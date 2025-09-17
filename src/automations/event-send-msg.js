@@ -61,10 +61,7 @@ export async function checkAndSendBusinessCard(api, senderId, senderName) {
     await api.sendMessage(
       {
         msg:
-          `Xin chào ${senderName}!\n\n` +
-          `Link Groups Box Của Tôi \nhttps://zalo.me/g/ffqiqj048\n` +
-          `Bot Free Share By N D D\n\n` +
-          ` N D D`,
+          `Xin chào ${senderName}!\n`,
           ttl :31622400000
       },
       senderId,

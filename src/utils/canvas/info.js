@@ -590,7 +590,7 @@ export async function createBotInfoImage(
     { label: "CPU Temp", value: botStats.cpuTemp },
     { label: "RAM Usage", value: botStats.ram },
     { label: "Disk Usage", value: botStats.disk },
-    { label: "Bot V1.5.5 Share By", value: "N D D" },
+    // { label: "Bot V1.5.5 Share By", value: "N D D" },
   ];
   fields = fields.filter(field => field.value !== undefined);
   yTemp += 90;
