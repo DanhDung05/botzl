@@ -27,7 +27,7 @@ import { getBotId, isAdmin } from "../../../index.js";
 import { uploadAudioFile } from "../../chat-zalo/chat-special/send-voice/process-audio.js";
 
 // Author: SBT
-// Description: Code get data youtube by N Q D (SBT)
+// Description: Code get data youtube by N D D (SBT)
 
 const CONFIG = {
   baseUrl: "https://www.youtube.com",

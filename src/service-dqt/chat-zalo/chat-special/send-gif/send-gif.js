@@ -10,7 +10,7 @@ export async function sendGifRemote(api, message) {
     await api.sendGif(
       gifUrl,
       message,
-      'N Q D Tướng Quân',
+      'N D D Tướng Quân',
       0
     );
 

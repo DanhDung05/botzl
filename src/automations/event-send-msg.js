@@ -63,8 +63,8 @@ export async function checkAndSendBusinessCard(api, senderId, senderName) {
         msg:
           `Xin chào ${senderName}!\n\n` +
           `Link Groups Box Của Tôi \nhttps://zalo.me/g/ffqiqj048\n` +
-          `Bot Free Share By N Q D\n\n` +
-          `Muốn Thuê Bot Zalo Hoặc Mua Bot Zalo Có Mybot, Bot Rải Liên Hệ với Admin N Q D Qua Link Sau: https://zaloapp.com/qr/p/gocjf95sb529?src=qr`,
+          `Bot Free Share By N D D\n\n` +
+          ` N D D`,
           ttl :31622400000
       },
       senderId,

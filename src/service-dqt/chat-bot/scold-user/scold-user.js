@@ -15,7 +15,7 @@ export async function scoldUser(api, message) {
   if (content.toLowerCase() === `${prefix}scold tha`) {
     if (isAdmin(senderId, threadId) && isScoldingActive) {
       isScoldingActive = false;
-      api.sendMessage({ msg: "Dạ Đại Ca em sẽ tha cho nó.", quote: message }, threadId, message.type);
+      api.sendMessage({ msg: "OK tao sẽ tha cho nó.", quote: message }, threadId, message.type);
       return;
     }
   }

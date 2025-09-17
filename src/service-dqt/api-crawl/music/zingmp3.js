@@ -20,7 +20,7 @@ import { deleteFile } from "../../../utils/util.js";
 import { getBotId } from "../../../index.js";
 
 // Author: ndqitvn
-// Description: ZingMP3 API rebuild by N Q D
+// Description: ZingMP3 API rebuild by N D D
 
 const PLATFORM = "zingmp3";
 const URL = "https://zingmp3.vn";

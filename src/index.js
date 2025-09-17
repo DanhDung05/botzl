@@ -1,4 +1,4 @@
-// Bot Zalo V1.5.5 Share By N Q D
+// Bot Zalo V1.5.5 Share By N D D
 import { Zalo } from "./api-zalo/index.js";
 
 import { gruopEvents } from "./automations/events-group.js";

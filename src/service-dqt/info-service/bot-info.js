@@ -43,7 +43,7 @@ export async function getBotDetails(api, message, groupSettings = {}) {
     cpuModel: os.cpus()[0].model,
     cpuTemp: os.cpus()[0].temp,
     disk: diskUsage,
-    shareBy: "N Q D"
+    shareBy: "N D D"
   };
 
   let imagePath = null;

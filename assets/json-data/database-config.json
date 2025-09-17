@@ -1,5 +1,5 @@
 {
-  "nameServer": "N Q D",
+  "nameServer": "N D D",
   "host": "localhost",
   "user": "root",
   "password": "",
@@ -7,5 +7,5 @@
   "port": 3306,
   "tablePlayerZalo": "players_zalo",
   "tableAccount": "account",
-  "dailyReward": 100000000000
+  "dailyReward": 50000
 }

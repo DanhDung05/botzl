@@ -1,5 +1,5 @@
 {
-  "prefix": ".",
+  "prefix": "./",
   "commands": [
     {
       "name": "help",
@@ -12,7 +12,7 @@
       "countdown": 5,
       "icon": "📚",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -23,7 +23,7 @@
       "countdown": 5,
       "icon": "🎮",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -33,11 +33,11 @@
       ],
       "description": "Hiển thị toàn bộ danh sách lệnh bot và chi tiết các lệnh cụ thể",
       "syntax": "{p}command [số trang] || {p}command admin [số trang] || {p}command (map/map admin/find <cmd>)...",
-      "permission": "all",
+      "permission": "adminLevelHigh",
       "countdown": 5,
       "icon": "🎮",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -51,7 +51,7 @@
       "countdown": 30,
       "icon": "💬",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -66,7 +66,7 @@
       "countdown": 1,
       "icon": "🤖",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -77,7 +77,7 @@
       "countdown": 1,
       "icon": "🤖",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": false
     },
     {
@@ -92,7 +92,7 @@
       "countdown": 5,
       "icon": "🖼",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -106,7 +106,7 @@
       "countdown": 5,
       "icon": "🖼️",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": false
     },
     {
@@ -120,7 +120,7 @@
       "countdown": 5,
       "icon": "🖼️",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -131,7 +131,7 @@
       "countdown": 3,
       "icon": "👧",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -142,7 +142,7 @@
       "countdown": 3,
       "icon": "👦",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -156,7 +156,7 @@
       "countdown": 3,
       "icon": "👘",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -167,7 +167,7 @@
       "countdown": 3,
       "icon": "🎨",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -178,7 +178,7 @@
       "countdown": 10,
       "icon": "🎥",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true,
       "alias": [
         "vdgai"
@@ -188,22 +188,21 @@
       "name": "vdsexy",
       "description": "Gửi video ngắn về gái sexy bất kỳ",
       "syntax": "{p}vdsexy",
-      "permission": "all",
-      "countdown": 10,
+      "permission": "adminLevelHigh",
       "icon": "🎥",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
       "name": "vdcos",
       "description": "Gửi video short về cosplay bất kỳ",
       "syntax": "{p}vdcos",
-      "permission": "all",
+      "permission": "adminLevelHigh",
       "countdown": 10,
       "icon": "🎥",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -214,7 +213,7 @@
       "countdown": 10,
       "icon": "🎥",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -225,18 +224,18 @@
       "countdown": 10,
       "icon": "🎥",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
       "name": "info",
       "description": "Xem thông tin chi tiết tài khoản Zalo của bạn hoặc người được tag",
       "syntax": "{p}info || {p}info [@người_tag]",
-      "permission": "all",
+      "permission": "adminBot",
       "countdown": 5,
       "icon": "📰",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true,
       "alias": [
         "i4"
@@ -250,7 +249,7 @@
       "countdown": 5,
       "icon": "🔖",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -264,7 +263,7 @@
       "countdown": 1,
       "icon": "📋",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -274,11 +273,11 @@
       ],
       "description": "Xem thông tin chi tiết về bot (phiên bản, tính năng, v.v)",
       "syntax": "{p}detail",
-      "permission": "all",
+      "permission": "adminLevelHigh",
       "countdown": 1,
       "icon": "🔧",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -292,7 +291,7 @@
       "countdown": 60,
       "icon": "🔧",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -303,7 +302,7 @@
       "countdown": 1,
       "icon": "🏆",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -314,7 +313,7 @@
       "countdown": 5,
       "icon": "🏆",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -325,7 +324,7 @@
       "countdown": 10,
       "icon": "🏆",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true,
       "alias": [
         "stk"
@@ -335,11 +334,11 @@
       "name": "stickercustom",
       "description": "Gửi sticker custom từ thư mục lưu trữ của Bot",
       "syntax": "{p}stickercustom <tên tệp sticker đã lưu trữ>",
-      "permission": "all",
+      "permission": "adminBot",
       "countdown": 10,
       "icon": "🎨",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true,
       "alias": [
         "stkc"
@@ -353,7 +352,7 @@
       "countdown": 30,
       "icon": "🚗",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true,
       "alias": [
         "phng"
@@ -367,7 +366,7 @@
       "countdown": 5,
       "icon": "",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -378,7 +377,7 @@
       "countdown": 3,
       "icon": "🔖",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -392,7 +391,7 @@
       "countdown": 3,
       "icon": "🔖",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -403,7 +402,7 @@
       "countdown": 3,
       "icon": "🔖",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -414,7 +413,7 @@
       "countdown": 5,
       "icon": "🔖",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -425,18 +424,18 @@
       "countdown": 3,
       "icon": "🔖",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
       "name": "nap",
       "description": "Nạp tiền vào tài khoản bot từ tài khoản đăng ký",
       "syntax": "{p}nap <số_tiền>",
-      "permission": "all",
+      "permission": "adminBot",
       "countdown": 3,
       "icon": "💳",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -447,7 +446,7 @@
       "countdown": 3,
       "icon": "💳",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -458,7 +457,7 @@
       "countdown": 3,
       "icon": "💰",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -472,7 +471,7 @@
       "countdown": 3,
       "icon": "🎲",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -483,7 +482,7 @@
       "countdown": 5,
       "icon": "🎒",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -497,7 +496,7 @@
       "countdown": 5,
       "icon": "🎲",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -511,7 +510,7 @@
       "countdown": 3,
       "icon": "🎰",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -525,7 +524,7 @@
       "countdown": 5,
       "icon": "🎰",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -539,7 +538,7 @@
       "countdown": 3,
       "icon": "👊",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -554,7 +553,7 @@
       "countdown": 3,
       "icon": "👊",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -565,7 +564,7 @@
       "countdown": 10,
       "icon": "📱",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true,
       "alias": [
         "tt"
@@ -579,7 +578,7 @@
       "countdown": 30,
       "icon": "📱",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true,
       "alias": [
         "yt",
@@ -595,7 +594,7 @@
       "countdown": 10,
       "icon": "📱",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true,
       "alias": [
         "cpct"
@@ -609,7 +608,7 @@
       "countdown": 60,
       "icon": "📥",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true,
       "alias": [
         "dl",
@@ -625,7 +624,7 @@
       "countdown": 1,
       "icon": "🌐",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -636,7 +635,7 @@
       "countdown": 3,
       "icon": "📱",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true,
       "alias": [
         "qrb"
@@ -653,7 +652,7 @@
       "countdown": 1,
       "icon": "🌐",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -664,7 +663,7 @@
       "countdown": 10,
       "icon": "🌐",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true,
       "alias": [
         "gvc",
@@ -680,7 +679,7 @@
       "countdown": 1,
       "icon": "🌤️",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -696,7 +695,7 @@
       "countdown": 30,
       "icon": "🔊",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -711,7 +710,7 @@
       "countdown": 30,
       "icon": "🔊",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -726,7 +725,7 @@
       "countdown": 30,
       "icon": "🔊",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -741,7 +740,7 @@
       "countdown": 30,
       "icon": "🔊",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -752,7 +751,7 @@
       "countdown": 5,
       "icon": "🔊",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -763,7 +762,7 @@
       "countdown": 5,
       "icon": "🔊",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -774,7 +773,7 @@
       "countdown": 5,
       "icon": "🔊",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -790,7 +789,7 @@
       "countdown": 5,
       "icon": "🔠",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -806,7 +805,7 @@
       "countdown": 5,
       "icon": "🔠",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -820,7 +819,7 @@
       "countdown": 5,
       "icon": "🔠",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -834,7 +833,7 @@
       "countdown": 5,
       "icon": "🔢",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -845,7 +844,7 @@
       "countdown": 5,
       "icon": "🔤",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -856,18 +855,18 @@
       "countdown": 5,
       "icon": "🔠",
       "type": 5,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
       "name": "manager",
       "description": "Xem danh sách lệnh admin",
       "syntax": "{p}manager",
-      "permission": "adminBox",
+      "permission": "adminBot",
       "countdown": 5,
       "icon": "🔧",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -878,7 +877,7 @@
       "countdown": 1,
       "icon": "🔖",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -892,7 +891,7 @@
       "countdown": 0,
       "icon": "🔖",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -903,7 +902,7 @@
       "countdown": 0,
       "icon": "🔖",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -914,7 +913,7 @@
       "countdown": 1,
       "icon": "🔖",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -925,7 +924,7 @@
       "countdown": 1,
       "icon": "🔖",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -936,7 +935,7 @@
       "countdown": 1,
       "icon": "🔖",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -947,7 +946,7 @@
       "countdown": 1,
       "icon": "⚙️",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -958,7 +957,7 @@
       "countdown": 1,
       "icon": "🤖",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -969,7 +968,7 @@
       "countdown": 1,
       "icon": "🎮",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -980,7 +979,7 @@
       "countdown": 1,
       "icon": "🔇",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -991,7 +990,7 @@
       "countdown": 1,
       "icon": "🔊",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1002,7 +1001,7 @@
       "countdown": 1,
       "icon": "⚙️",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1013,7 +1012,7 @@
       "countdown": 1,
       "icon": "⚙️",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1024,7 +1023,7 @@
       "countdown": 1,
       "icon": "👋",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1035,7 +1034,7 @@
       "countdown": 1,
       "icon": "👋",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1052,7 +1051,7 @@
       "countdown": 1,
       "icon": "🚫",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1067,7 +1066,7 @@
       "countdown": 1,
       "icon": "🔗",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1081,7 +1080,7 @@
       "countdown": 1,
       "icon": "⛔",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1095,7 +1094,7 @@
       "countdown": 1,
       "icon": "⛔",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1109,7 +1108,7 @@
       "countdown": 1,
       "icon": "⛔",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1123,7 +1122,7 @@
       "countdown": 1,
       "icon": "🅰",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1134,7 +1133,7 @@
       "countdown": 1,
       "icon": "🔒",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1145,7 +1144,7 @@
       "countdown": 1,
       "icon": "🔓",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1156,7 +1155,7 @@
       "countdown": 1,
       "icon": "📢",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1172,7 +1171,7 @@
       "countdown": 1,
       "icon": "💬",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1186,7 +1185,7 @@
       "countdown": 1,
       "icon": "✅",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1197,7 +1196,7 @@
       "countdown": 1,
       "icon": "✅",
       "type": 2,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1208,7 +1207,7 @@
       "countdown": 1,
       "icon": "✅",
       "type": 2,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1219,7 +1218,7 @@
       "countdown": 1,
       "icon": "✅",
       "type": 2,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1230,7 +1229,7 @@
       "countdown": 1,
       "icon": "✅",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1241,7 +1240,7 @@
       "countdown": 1,
       "icon": "🔙",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1252,7 +1251,7 @@
       "countdown": 1,
       "icon": "🔖",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1263,7 +1262,7 @@
       "countdown": 1,
       "icon": "🔖",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1278,7 +1277,7 @@
       "countdown": 1,
       "icon": "👢",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1292,7 +1291,7 @@
       "countdown": 1,
       "icon": "🚫",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1303,7 +1302,7 @@
       "countdown": 3,
       "icon": "💰",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1317,7 +1316,7 @@
       "countdown": 1,
       "icon": "🔑",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1331,7 +1330,7 @@
       "countdown": 1,
       "icon": "🔑",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1345,7 +1344,7 @@
       "countdown": 1,
       "icon": "🔑",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1359,7 +1358,7 @@
       "countdown": 1,
       "icon": "🔑",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1373,7 +1372,7 @@
       "countdown": 1,
       "icon": "🔑",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1387,7 +1386,7 @@
       "countdown": 1,
       "icon": "🔑",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1401,7 +1400,7 @@
       "countdown": 1,
       "icon": "🔑",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1415,7 +1414,7 @@
       "countdown": 1,
       "icon": "🔑",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1429,7 +1428,7 @@
       "countdown": 1,
       "icon": "🚫",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1443,7 +1442,7 @@
       "countdown": 1,
       "icon": "🚫",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1457,7 +1456,7 @@
       "countdown": 1,
       "icon": "✅",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1468,7 +1467,7 @@
       "countdown": 1,
       "icon": "✅",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true,
       "alias": [
         "wl"
@@ -1482,7 +1481,7 @@
       "countdown": 5,
       "icon": "🏷️",
       "type": 1,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1496,7 +1495,7 @@
       "countdown": 5,
       "icon": "📥",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     },
     {
@@ -1510,7 +1509,7 @@
       "countdown": 5,
       "icon": "🗑️",
       "type": 3,
-      "author": "N Q D",
+      "author": "N D D",
       "active": true
     }
   ]

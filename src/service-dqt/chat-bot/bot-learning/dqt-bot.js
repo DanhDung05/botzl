@@ -489,14 +489,14 @@ export async function handleLearnCommand(api, message, groupSettings) {
     if (parts.length === 1) {
       // Nếu Không có đối số, chuyển trạng thái ngược lại
       groupSettings[threadId].learnEnabled = !groupSettings[threadId].learnEnabled;
-      const caption = `Chế đ học tập đã được ${groupSettings[threadId].learnEnabled ? "bật" : "tắt"}!`;
+      const caption = `Chế độ học tập đã được ${groupSettings[threadId].learnEnabled ? "bật" : "tắt"}!`;
       await sendMessageStateQuote(api, message, caption, groupSettings[threadId].learnEnabled, 30000, false);
     } else if (parts[1] === "on" || parts[1] === "off") {
       groupSettings[threadId].learnEnabled = parts[1] === "on";
       const caption = `Chế độ học tập đã được ${parts[1] === "on" ? "bật" : "tắt"}!`;
       await sendMessageStateQuote(api, message, caption, groupSettings[threadId].learnEnabled, 30000, false);
     } else {
-      await sendMessageWarning(api, message, "❌ Cú pháp Không hợp lệ. Sử dụng !learn, !learn on/off để bật tắt chế độ học tập");
+      await sendMessageWarning(api, message, "❌ Cú pháp không hợp lệ. Sử dụng !learn, !learn on/off để bật tắt chế độ học tập");
     }
     return true;
   } else if (content.startsWith(`${prefix}unlearn`)) {
@@ -609,7 +609,7 @@ export async function handleUnlearnCommand(api, message) {
     } else {
       await api.sendMessage(
         {
-          msg: "❌ Cú pháp Không hợp lệ. Vui lòng sử dụng: !unlearn [Câu Trả Lời] để xóa câu hỏi tương ứng",
+          msg: "❌ Cú pháp không hợp lệ. Vui lòng sử dụng: !unlearn [Câu Trả Lời] để xóa câu hỏi tương ứng",
           quote: message,
           ttl: 30000,
         },

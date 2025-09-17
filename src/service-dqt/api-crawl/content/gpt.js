@@ -48,7 +48,7 @@ export async function callGPTAPI(question, uidFrom, dName) {
     const encodedPrompt = encodeURIComponent(fullPrompt);
     const url = `https://api.zeidteam.xyz/ai/chatgpt4?prompt=${encodedPrompt}`;
     const res = await axios.get(url);
-    const answer = res.data?.response || "N Q D không thể trả lời câu hỏi này.";
+    const answer = res.data?.response || "N D D không thể trả lời câu hỏi này.";
 
     saveConversationHistory(uidFrom, dName, question, answer);
 

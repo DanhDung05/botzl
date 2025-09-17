@@ -15,7 +15,7 @@ import { createSearchResultImage } from "../../../utils/canvas/search-canvas.js"
 import { getBotId } from "../../../index.js";
 
 // Author: ndqitvn
-// Description: Code get data youtube by N Q D (ndqitvn)
+// Description: Code get data youtube by N D D (ndqitvn)
 // Note: This code is not working, let goto https://www.capcut.com/vi-vn/templates and copy new request headers of search capcut
 
 const CONFIG = {
