@@ -17,7 +17,7 @@ const permissionMap = {
     },
     4: {
         key: "adminLevelHigh",
-        name: "Quản Trị Cấp Cao",
+        name: "admin vip",
     },
 };
 

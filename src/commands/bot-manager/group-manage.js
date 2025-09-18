@@ -276,7 +276,7 @@ export async function handleBlockBot(api, message, groupSettings) {
         if (!isAdmin(targetId)) {
           listIdBlock.push({ targetId, targetName });
         } else {
-          messageContent += `🚨 Không block được Quản Trị Cấp Cao: ${targetName}\n`;
+          messageContent += `🚨 Không block được admin vip: ${targetName}\n`;
         }
       }
     }
@@ -285,7 +285,7 @@ export async function handleBlockBot(api, message, groupSettings) {
     if (!isAdmin(threadId)) {
       listIdBlock.push({ targetId: threadId, targetName: userInfo.name });
     } else {
-      messageContent += `🚨 Không block được Quản Trị Cấp Cao: ${userInfo.name}\n`;
+      messageContent += `🚨 Không block được admin vip: ${userInfo.name}\n`;
     }
   }
 

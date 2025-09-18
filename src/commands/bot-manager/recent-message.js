@@ -26,7 +26,7 @@ export async function handleDeleteMessage(api, message, groupAdmins, aliasComman
     if (msgDel) {
       await sendMessageStateQuote(api, message, "Tin nhắn đã được xóa rồi nhé", true, 5000);
     } else {
-      await sendMessageStateQuote(api, message, "Đếch tìm thấy tin nhắn cần xóa", false, 5000);
+      await sendMessageStateQuote(api, message, "Không tìm thấy tin nhắn cần xóa", false, 5000);
     }
     return;
   }
@@ -74,8 +74,8 @@ export async function handleDeleteMessage(api, message, groupAdmins, aliasComman
 
   await Promise.all(deletePromises);
 
-  const caption = `${countDelete > 0 ? `Thành công xóa ${countDelete} tin nhắn` : "Đếch có tin nhắn nào được xóa"}` +
-    `${countDeleteFail > 0 ? `\nCó ${countDeleteFail} tin nhắn Không xóa được` : ""}`;
+  const caption = `${countDelete > 0 ? `Đã xóa ${countDelete} tin nhắn` : "Không có tin nhắn nào được xóa"}` +
+    `${countDeleteFail > 0 ? `\nCó ${countDeleteFail} tin nhắn không xóa được` : ""}`;
   await sendMessageStateQuote(api, message, caption, true, 60000);
 }
 

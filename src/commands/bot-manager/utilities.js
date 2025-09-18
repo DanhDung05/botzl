@@ -89,7 +89,7 @@ export async function handleSendToDo(api, message) {
       {
         success: false,
         message:
-          `Cú pháp Không đúng. Vui lòng sử dụng:\n` +
+          `Cú pháp không đúng. Vui lòng sử dụng:\n` +
           `${prefix}todo_[Nội dung công việc]_[Số lần] @user\n` +
           `hoặc: ${prefix}todo_[Nội dung công việc]_[Số lần]_[ID người nhận]`,
       },

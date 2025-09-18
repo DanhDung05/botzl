@@ -147,7 +147,8 @@ async function checkPermission(api, message, commandName, userPermissionLevel, i
 
   const permissionName = getPermissionCommandName(command);
   if (isNotify) {
-    const caption = `Bạn Không có đủ quyền để sử dụng lệnh này\nYêu cầu quyền hạn: ${permissionName}`;
+    // const caption = `Bạn không có đủ quyền để sử dụng lệnh này.\nYêu cầu quyền hạn: ${permissionName}`;
+    const caption = `Bạn không quyền để sử dụng lệnh này.`;
     await sendMessageInsufficientAuthority(api, message, caption);
   }
   return false;
@@ -225,7 +226,7 @@ export async function checkAdminLevelHighest(api, message, isAdminLevelHighest) 
     await sendMessageInsufficientAuthority(
       api,
       message,
-      "Chỉ có quản trị viên cấp cao mới được sử dụng lệnh này!"
+      "Bạn không thể sử dụng lệnh này.!"
     );
     return false;
   }
@@ -934,15 +935,15 @@ export async function handleCommand(
                 await handleStoryCommand(api, message);
                 break;
 
-              case "tarrot":
-                await handleTarrotCommand(api, message);
-                break;
+              // case "tarrot":
+              //   await handleTarrotCommand(api, message);
+              //   break;
 
               case "soundcloud":
                 await handleMusicCommand(api, message, aliasCommand);
                 break;
 
-              case "zingmp3":
+              case "zingmp3333":
                 await handleZingMp3Command(api, message, aliasCommand);
                 break;
 

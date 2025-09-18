@@ -89,7 +89,7 @@ export async function handleActiveBotUser(
 
       groupSettings[threadId].activeBot = newStatus;
 
-      const statusMessage = newStatus ? "kích hoạt" : "vô hiệu hóa";
+      const statusMessage = newStatus ? "bật" : "tắt";
       const caption = `Đã ${statusMessage} tương tác thành viên  với bot trong nhóm này.`;
       if (newStatus) {
         await sendMessageComplete(api, message, caption);
@@ -113,7 +113,7 @@ export async function handleActiveBotUser(
     }
     managerData.data.onBotPrivate = newStatus;
     managerData.hasChanges = true;
-    const statusMessage = newStatus ? "kích hoạt" : "vô hiệu hóa";
+    const statusMessage = newStatus ? "kích hoạt" : "tắt";
     const caption = `Đã ${statusMessage} tương tác lệnh trong tin nhắn riêng tư với tất cả người dùng.`;
     if (newStatus) {
       await sendMessageComplete(api, message, caption);
@@ -132,7 +132,7 @@ export async function handleActiveBotUser(
     }
     managerData.data.onGamePrivate = newStatus;
     managerData.hasChanges = true;
-    const statusMessage = newStatus ? "kích hoạt" : "vô hiệu hóa";
+    const statusMessage = newStatus ? "bật" : "tắt";
     const caption = `Đã ${statusMessage} tương tác game trong tin nhắn riêng tư với tất cả người dùng.`;
     if (newStatus) {
       await sendMessageComplete(api, message, caption);
@@ -176,7 +176,7 @@ export async function handleActiveGameUser(
 
     groupSettings[threadId].activeGame = newStatus;
 
-    const statusMessage = newStatus ? "kích hoạt" : "vô hiệu hóa";
+    const statusMessage = newStatus ? "bật" : "tắt";
     const caption = `Đã ${statusMessage} xử lý tương tác trò chơi trong nhóm này.`;
     if (newStatus) {
       await sendMessageComplete(api, message, caption);

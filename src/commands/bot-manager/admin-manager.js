@@ -21,7 +21,7 @@ export async function handleAdminHighLevelCommands(api, message, groupAdmins, gr
 
   if (!isAdminLevelHighest) {
     if (groupAdmins.includes(message.data.uidFrom)) {
-      const caption = "Chỉ có quản trị bot cấp cao mới được sử dụng lệnh này!";
+      const caption = "Mày không có quyền dùng lệnh này.";
       await sendMessageInsufficientAuthority(api, message, caption);
     }
     return false;
@@ -57,9 +57,9 @@ export async function handleListAdmin(api, message, groupSettings) {
   }
 
   if (highLevelAdminListTxt) {
-    response += `Danh sách Quản trị Cấp Cao của Bot:\n${highLevelAdminListTxt}\n\n`;
+    response += `Danh sách admin vip của Bot:\n${highLevelAdminListTxt}\n\n`;
   } else {
-    response += "Không thể lấy thông tin Quản trị Cấp Cao của Bot.\n\n";
+    response += "Không thể lấy thông tin admin vip của Bot.\n\n";
   }
 
   if (Object.keys(groupSettings[threadId].adminList).length === 0) {

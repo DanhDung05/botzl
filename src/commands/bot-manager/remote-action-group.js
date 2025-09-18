@@ -62,7 +62,7 @@ export async function handleJoinGroup(api, message) {
       message,
       {
         success: false,
-        message: `Link này đếch tồn tại nhóm/cộng đồng nào!`,
+        message: `Link này không tồn tại nhóm/cộng đồng nào!`,
       },
       true,
       30000
@@ -138,7 +138,7 @@ export async function handleReactionConfirmJoinGroup(api, reaction) {
         api,
         message,
         {
-          caption: `Bố đã gửi yêu cầu tham gia nhóm này và đang chờ chủ nhóm phê duyệt!`,
+          caption: `Đã gửi yêu cầu tham gia nhóm này và đang chờ chủ nhóm phê duyệt!`,
         },
         180000
       );
@@ -148,7 +148,7 @@ export async function handleReactionConfirmJoinGroup(api, reaction) {
         api,
         message,
         {
-          caption: `Bố đã là thành viên của nhóm này!`,
+          caption: `Đã là thành viên của nhóm này!`,
         },
         180000
       );
@@ -158,7 +158,7 @@ export async function handleReactionConfirmJoinGroup(api, reaction) {
         api,
         message,
         {
-          caption: `Bố đã bị chặn tham gia nhóm này!`,
+          caption: `Đã bị chặn tham gia nhóm này!`,
         },
         180000
       );
@@ -172,7 +172,7 @@ export async function handleLeaveGroup(api, message) {
   const senderId = message.data.uidFrom;
   const threadId = message.threadId;
   if (senderId === idBot) return;
-  await sendMessageResultRequest(api, MessageType.GroupMessage, threadId, "Bai mấy cu, bố đi đây!", true, 30000);
+  await sendMessageResultRequest(api, MessageType.GroupMessage, threadId, "BaiBai anh em!", true, 30000);
   await api.leaveGroup(threadId);
 }
 
@@ -197,7 +197,7 @@ export async function handleShowGroupsList(api, message, aliasCommand) {
         message,
         {
           success: false,
-          message: `Đếch tìm thấy nhóm nào có tên chứa "${command}"!`,
+          message: `Không tìm thấy nhóm nào có tên chứa "${command}"!`,
         },
         false,
         30000
@@ -282,7 +282,7 @@ export async function handleActionGroupReply(
     const index = parseInt(commandParts[0]);
     if (isNaN(index)) {
       const object = {
-        caption: `Lựa chọn Không hợp lệ. Vui lòng chọn một số từ danh sách.`,
+        caption: `Lựa chọn không hợp lệ. Vui lòng chọn một số từ danh sách.`,
       };
       await sendMessageWarningRequest(api, message, object, 30000);
       return true;

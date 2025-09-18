@@ -249,7 +249,7 @@ export async function handleSpeedTestCommand(api, message) {
 
 	if (isTestingSpeed) {
 		await sendMessageCompleteRequest(api, message, {
-			caption: `Hiện tại bot đang thực hiện kiểm tra tốc độ mạng theo yêu cầu của ${currentTester.name}. Vui lòng đợi kết quả.`,
+			caption: `Đang thực hiện kiểm tra tốc độ mạng theo yêu cầu của ${currentTester.name}. Chờ một chút.`,
 		}, 30000);
 		if (threadId !== currentTester.threadId && !otherThreadRequester[threadId]) {
 			otherThreadRequester[threadId] = {

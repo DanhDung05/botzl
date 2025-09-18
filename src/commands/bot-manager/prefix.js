@@ -30,7 +30,7 @@ export async function handlePrefixCommand(api, message, threadId, isAdmin) {
   if (!isAdmin) {
     await api.sendMessage(
       {
-        msg: "❌ Không có quyền thay đổi prefix của bot!",
+        msg: "Mày không có quyền thay đổi prefix của bot!",
         quote: message,
         ttl: 30000
       },
@@ -43,7 +43,7 @@ export async function handlePrefixCommand(api, message, threadId, isAdmin) {
   if (args.includes(" ")) {
     await api.sendMessage(
       {
-        msg: "❌ Prefix Không được chứa khoảng trắng!",
+        msg: "❌ Prefix không được chứa khoảng trắng!",
         quote: message,
         ttl: 30000
       },
